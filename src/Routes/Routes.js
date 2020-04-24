@@ -33,7 +33,7 @@ export default class Routes extends Component {
                 <Switch>
                 {/* <Route path="/" component={SignIn} exact /> */}
                     {/* <Route path="/" exact component={Home} /> */}
-                    <Route path="/" component={IT} /> 
+                    <Route path="/" component={PDFGEN} /> 
                     <Route path="/Dashboard" component={HomeNavBar} exact />
                     {/* <Route path="/UserList" component={UserList} /> */}
                     {/* <Route path="/Inventory" component={Inventory} /> */}
