@@ -18,7 +18,7 @@ import ViewSingleOrder from "../Components/Saless/components/ViewSingleOrder";
 import AddNewProduct from "../Components/Inventory/components/AddNewProduct";
 import SIV from '../Components/Inventory/components/SIV';
 import Invoice from '../Components/Finance/components/INVOICE';
-import PDFGEN from '../Components/Finance/components/PDFGenerate';
+import PDFGEN from '../Components/Inventory/components/PDFGenerate';
 
 import Div from '../Components/Saless/components/Div'
 import Logistics from "../Components/Logistics/Logistics";
@@ -33,13 +33,15 @@ export default class Routes extends Component {
                 <Switch>
                 {/* <Route path="/" component={SignIn} exact /> */}
                     {/* <Route path="/" exact component={Home} /> */}
-                    <Route path="/" component={PDFGEN} /> 
+                    {/* <Route path="/" component={PDFGEN} />  */}
+                    {/* <Route path="/" component={Invoice} />  */}
+
                     <Route path="/Dashboard" component={HomeNavBar} exact />
                     {/* <Route path="/UserList" component={UserList} /> */}
                     {/* <Route path="/Inventory" component={Inventory} /> */}
                     {/* <Route path="/" component={Inventory} /> */}
                     {/* <Route path="/" component={Div} /> */}
-                    {/* <Route path="/" component={CreateOrder} /> */}
+                    <Route path="/" component={Finance} />
                     <Route path="/Invoice" component={Invoice} exact />  
                     {/* <Route path="/" component={UserProfile} exact /> */}
                     {/* <Route path="/" component={PDFGEN} /> */}

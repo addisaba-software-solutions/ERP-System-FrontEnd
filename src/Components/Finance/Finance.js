@@ -29,6 +29,7 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 // import AddNewProduct from './components/AddNewProduct'
 import ProfilePicture from '../../Assets/ww.jpg';
+import OrderStatus from './OrderStatus'
 // import InventoryStatus from './components/InventoryStatus';
 // import Card from '@material-ui/core/Card';
 // import UsersList from './components/UsersList'
@@ -130,8 +131,7 @@ export const routes = [
         exact: true,
         sidebar: () => '',
         main: () =>
-        <div></div>
-            // <AddNewProduct />
+            <OrderStatus />
     },
     {
         path: '/InventoryStatus',

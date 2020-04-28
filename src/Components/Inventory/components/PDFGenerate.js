@@ -1,6 +1,6 @@
 import React from "react";
 import { PDFDownloadLink } from "@react-pdf/renderer";
-import Invoice from './INVOICE'
+import SIV from './SIV'
 
 
 
@@ -13,7 +13,7 @@ export default function PDFGenerate() {
 
       
         <PDFDownloadLink
-          document={<Invoice />}
+          document={<SIV />}
           fileName="Invoice.pdf"
           style={{
             textDecoration: "none",
